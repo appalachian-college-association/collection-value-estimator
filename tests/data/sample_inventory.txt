@@ -1,0 +1,16 @@
+Institution_Symbol|Item_Holding_Location|Item_Permanent_Shelving_Location|Item_Temporary_Shelving_Location|Item_Type|Item_Call_Number|Item_Enumeration_and_Chronology|Author_Name|Title|LHR_Item_Materials_Specified|Material_Format|OCLC_Number|Title_ISBN|Publication_Date|Item_Barcode|LHR_Item_Cost|LHR_Item_Nonpublic_Note|LHR_Item_Public_Note|Item_Status_Current_Status|Item_Due_Date|Item_Issued_Count|Issued_Count_YTD|Item_Soft_Issued_Count|Item_Soft_Issued_Count_YTD|Item_Last_Issued_Date|Item_Last_Inventoried_Date|Item_Deleted_Date|LHR_Date_Entered_on_File|LHR_Item_Acquired_Date|Language_Code|LHR_Item_Call_Number_Normalized
+ABC|MAIN|STACKS||VOLUME|813.54 T649||Doe, Jane|Sample Novel One||Book|10000001|9780000000001|1987|30000000000001|$24.99||||||||||||||eng|
+ABC|MAIN|STACKS||VOLUME|R 030 E56||Roe, Richard|Sample Reference Two||Book|10000002|9780000000002|1992|30000000000002|1,234.00||||||||||||||eng|
+ABC|MAIN|STACKS||VOLUME|813.54 T650||Doe, Jane|Sample Novel Three||Book|10000003|9780000000003|1987|30000000000003|12.34.56||||||||||||||eng|
+ABC|MAIN|STACKS||VOLUME|813.54 T651||Poe, Alan|Sample Novel Four||Book|10000004|9780000000004|1985|30000000000004|||||||||||||||eng|
+ABC|MAIN|STACKS||VOLUME|920 B877||Bloggs, Fred|The "Unfinished Story||Book|10000005|9780000000005|2001|30000000000005|10.00||||||||||||||eng|
+ABC|MAIN|STACKS||VOLUME||||Lost Item||Book|10000006||1999|30000000000006|5.00|||Lost|||||||||||eng|
+ABC|MAIN|STACKS||VOLUME||||Missing Item||Book|10000007||1999|30000000000007||||Missing|||||||||||eng|
+ABC|MAIN|STACKS||VOLUME||||Withdrawn Item||Book|10000008||1999|30000000000008||||Withdrawn|||||||||||eng|
+ABC|MAIN|STACKS||VOLUME||||In Processing Item||Book|10000009||1999|30000000000009||||In Processing|||||||||||eng|
+ABC|MAIN|STACKS||VOLUME||||Claimed Returned Item||Book|10000010||1999|30000000000010||||Claimed Returned|||||||||||eng|
+ABC|MAIN|STACKS||CIRC_MANAGED||||Special Collections Item||Book|10000011||1990|30000000000011|50.00||||||||||||||eng|
+ABC|MAIN|STACKS||VOLUME||||Truncated Row||Book|10000012|||30000000000012|||||||||||||||eng
+ABC|MAIN|STACKS||VOLUME|091 A532||Anonymous|Ancient Manuscript Facsimile||Book|10000013||0850|30000000000013|5.00||||||||||||||eng|
+ABC|MAIN|STACKS||VOLUME||||Undated Item||Book|10000014|||30000000000014|||||||||||||||eng|
+ABC|MAIN|STACKS||VOLUME|813.54 T652||Doe, Jane|Donor Copy||Book|10000015||1988|30000000000015|20.00|Gift of Jane Donor|paid by .p0000000||||||||||||eng|

@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "collection-value-estimator"
+version = "1.0.0"
+description = "Estimate the replacement value of a library collection from an OCLC WMS Circulation Item Inventories export."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0,<3",
+    "numpy>=1.24,<3",
+    "matplotlib>=3.7,<4",
+    "scipy>=1.10,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[tool.setuptools]
+packages = ["cve"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "PL"]
+
+[tool.ruff.lint.per-file-ignores]
+# Literal expected values in test assertions are clearer than named constants
+"tests/*" = ["PLR2004"]
+
+[tool.ruff.lint.pylint]
+max-args = 8
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

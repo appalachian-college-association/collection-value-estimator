@@ -1,0 +1,35 @@
+# DATA — never commit library exports or generated outputs.
+# The synthetic fixture in tests/data/ is the ONLY allowed .txt/.csv.
+*.txt
+!tests/data/*.txt
+*.csv
+!tests/data/*.csv
+*.png
+
+# Credentials (defensive — this tool never uses credentials)
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+evaluator_env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Editor / OS
+.history/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
